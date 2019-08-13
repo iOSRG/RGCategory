@@ -1,0 +1,22 @@
+{
+  "name": "RGCategory",
+  "version": "0.1.0",
+  "summary": "A short description of RGCategory.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/18607304107@163.com/RGCategory",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "18607304107@163.com": "gui.ren@hand-china.com"
+  },
+  "source": {
+    "git": "https://github.com/18607304107@163.com/RGCategory.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "RGCategory/Classes/**/*"
+}

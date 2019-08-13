@@ -1,0 +1,16 @@
+PODS:
+  - RGCategory (0.1.0)
+
+DEPENDENCIES:
+  - RGCategory (from `../`)
+
+EXTERNAL SOURCES:
+  RGCategory:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RGCategory: e492d18cd4902893b0174df936dbcda0b6f2cc45
+
+PODFILE CHECKSUM: 5ed527cf8f968cd839951a3c7bce425626dcab82
+
+COCOAPODS: 1.5.0

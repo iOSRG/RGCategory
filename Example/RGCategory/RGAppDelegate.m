@@ -7,6 +7,21 @@
 //
 
 #import "RGAppDelegate.h"
+//#import "CALayer+BaseExtension.h"
+#import <RGCategory/CALayer+BaseExtension.h>
+#import <RGCategory/NSArray+Log.h>
+#import <RGCategory/NSAttributedString+BaseExtension.h>
+#import <RGCategory/NSDate+BaseExtension.h>
+#import <RGCategory/NSObject+BaseExtension.h>
+#import <RGCategory/NSString+AttributedString.h>
+#import <RGCategory/NSDate+BaseExtension.h>
+#import <RGCategory/RGView.h>
+#import <RGCategory/UIColor+BaseExtension.h>
+#import <RGCategory/UIFont+Swizzing.h>
+#import <RGCategory/UIImage+BaseExtension.h>
+#import <RGCategory/UIView+Frame.h>
+#import <RGCategory/UIView+Borders.h>
+
 
 @implementation RGAppDelegate
 
