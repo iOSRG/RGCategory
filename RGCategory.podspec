@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RGCategory'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'RGCategory'
 
 # This description is used to generate tags and improve search results.
@@ -31,47 +31,47 @@ Pod::Spec.new do |s|
   #s.source_files = 'RGCategory/Classes/**/*'
   
   s.subspec 'CALayer' do |sc|
-      sc.source_files = 'RGTool/Classes/CALayer/**/*'
+      sc.source_files = 'RGCategory/Classes/CALayer/**/*'
   end
   
   s.subspec 'NSArray' do |sa|
-      sa.source_files = 'RGTool/Classes/NSArray/**/*'
+      sa.source_files = 'RGCategory/Classes/NSArray/**/*'
   end
   
   s.subspec 'NSAttributedString' do |sat|
-      sat.source_files = 'RGTool/Classes/NSAttributedString/**/*'
+      sat.source_files = 'RGCategory/Classes/NSAttributedString/**/*'
   end
   
   s.subspec 'NSDate' do |sd|
-      sd.source_files = 'RGTool/Classes/NSDate/**/*'
+      sd.source_files = 'RGCategory/Classes/NSDate/**/*'
   end
   
   s.subspec 'NSObject' do |so|
-      so.source_files = 'RGTool/Classes/NSObject/**/*'
+      so.source_files = 'RGCategory/Classes/NSObject/**/*'
   end
   
   s.subspec 'NSString' do |sst|
-      sst.source_files = 'RGTool/Classes/NSString/**/*'
+      sst.source_files = 'RGCategory/Classes/NSString/**/*'
   end
   
   s.subspec 'RGView' do |svi|
-      svi.source_files = 'RGTool/Classes/RGView/**/*'
+      svi.source_files = 'RGCategory/Classes/RGView/**/*'
   end
   
   s.subspec 'UIcolor' do |sco|
-      sco.source_files = 'RGTool/Classes/UIcolor/**/*'
+      sco.source_files = 'RGCategory/Classes/UIcolor/**/*'
   end
   
   s.subspec 'UIFont' do |sfo|
-      sfo.source_files = 'RGTool/Classes/UIFont/**/*'
+      sfo.source_files = 'RGCategory/Classes/UIFont/**/*'
   end
   
   s.subspec 'UIImage' do |sim|
-      sim.source_files = 'RGTool/Classes/UIImage/**/*'
+      sim.source_files = 'RGCategory/Classes/UIImage/**/*'
   end
   
   s.subspec 'UIView' do |svi|
-      svi.source_files = 'RGTool/Classes/UIView/**/*'
+      svi.source_files = 'RGCategory/Classes/UIView/**/*'
   end
   
   
