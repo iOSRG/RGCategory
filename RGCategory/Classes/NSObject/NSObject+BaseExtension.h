@@ -15,7 +15,7 @@
 -(NSString*)JSONString;
 
 /*倒计时*/
-+ (void)makeTimerWithTimeout:(NSInteger)time  eventBlock:(void (^)(id result))eventBlock  timeoutBlock:(void (^)())timeoutBlock;
++ (void)makeTimerWithTimeout:(NSInteger)time  eventBlock:(void (^)(id result))eventBlock  timeoutBlock:(void (^)(void))timeoutBlock;
 
 ///图片写入相册
 - (void)ImageWriteToSavedPhotosAlbum:(UIImage *)image result:(void(^)(NSError *error))result;

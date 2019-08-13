@@ -33,7 +33,7 @@ static const void *Saveresult = &Saveresult;
 
 
 //MARK: - 倒计时
-+ (void)makeTimerWithTimeout:(NSInteger)time  eventBlock:(void (^)(id result))eventBlock  timeoutBlock:(void (^)())timeoutBlock
++ (void)makeTimerWithTimeout:(NSInteger)time  eventBlock:(void (^)(id result))eventBlock  timeoutBlock:(void (^)(void))timeoutBlock
 {
     
     __block NSInteger timeout=time;
