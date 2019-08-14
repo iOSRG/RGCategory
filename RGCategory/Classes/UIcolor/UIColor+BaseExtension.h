@@ -15,4 +15,15 @@
 
 - (UIImage *)color2ImageSized:(CGSize)size;
 
+
++ (UIColor*) colorWithCSS: (NSString*) css;
++ (UIColor*) colorWithHex: (NSUInteger) hex;
+
+- (uint)hex;
+- (NSString*)hexString;
+- (NSString*)cssString;
+
+
+
+
 @end
