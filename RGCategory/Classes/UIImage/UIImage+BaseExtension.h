@@ -17,4 +17,7 @@ typedef void(^SavedPhotosAlbumFinishBlock)(NSError *error);
 /**图片写入相册*/
 - (void)SavedPhotosAlbumWithBeforBlock:(SavedPhotosAlbumBeforeBlock)beforeBlock  FinishBlock:(SavedPhotosAlbumFinishBlock)finishBlock;
 
+///图片改变颜色
+-(UIImage*)imageChangeColor:(UIColor*)color;
+
 @end
