@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "MasHeader.h"
+#import <Masonry/Masonry.h>
 
 @interface UILabel (MAS)
 

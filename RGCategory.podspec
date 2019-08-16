@@ -74,6 +74,11 @@ Pod::Spec.new do |s|
       svi.source_files = 'RGCategory/Classes/UIView/**/*'
   end
   
+  s.subspec 'Extension_MAS' do |sex|
+      sex.source_files = 'RGCategory/Classes/Extension_MAS/**/*'
+      sex.dependency 'Masonry', '~> 1.1.0'
+  end
+  
   
   
   # s.resource_bundles = {
@@ -82,5 +87,5 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  #s.dependency 'Masonry', '~> 1.1.0'
 end

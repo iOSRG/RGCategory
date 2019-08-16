@@ -1,6 +1,6 @@
 {
   "name": "RGCategory",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "summary": "RGCategory",
   "description": "常用分类",
   "homepage": "https://github.com/iOSRG/RGCategory",
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/iOSRG/RGCategory.git",
-    "tag": "0.0.5"
+    "tag": "0.0.6"
   },
   "platforms": {
     "ios": "8.0"
@@ -59,6 +59,15 @@
     {
       "name": "UIView",
       "source_files": "RGCategory/Classes/UIView/**/*"
+    },
+    {
+      "name": "Extension_MAS",
+      "source_files": "RGCategory/Classes/Extension_MAS/**/*",
+      "dependencies": {
+        "Masonry": [
+          "~> 1.1.0"
+        ]
+      }
     }
   ]
 }

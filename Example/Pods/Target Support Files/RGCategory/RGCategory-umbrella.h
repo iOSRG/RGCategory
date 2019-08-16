@@ -11,6 +11,13 @@
 #endif
 
 #import "CALayer+BaseExtension.h"
+#import "MasCategary.h"
+#import "UIButton+MAS.h"
+#import "UICollectionView+MAS.h"
+#import "UIImageView+MAS.h"
+#import "UILabel+MAS.h"
+#import "UITableView+MAS.h"
+#import "UIView+MAS.h"
 #import "NSArray+Log.h"
 #import "NSAttributedString+BaseExtension.h"
 #import "NSDate+BaseExtension.h"
