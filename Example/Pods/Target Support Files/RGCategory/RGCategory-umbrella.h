@@ -24,7 +24,6 @@
 #import "UITableView+RG.h"
 #import "UITextField+RG.h"
 #import "UIView+RG.h"
-#import "UIColor+BaseExtension.h"
 #import "UIFont+Swizzing.h"
 #import "UIImage+BaseExtension.h"
 #import "UIButton+BaseExtension.h"
@@ -33,6 +32,7 @@
 #import "UIView+Borders.h"
 #import "UIView+Frame.h"
 #import "UIView+Other.h"
+#import "UIColor+BaseExtension.h"
 
 FOUNDATION_EXPORT double RGCategoryVersionNumber;
 FOUNDATION_EXPORT const unsigned char RGCategoryVersionString[];

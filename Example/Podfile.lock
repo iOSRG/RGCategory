@@ -1,5 +1,27 @@
 PODS:
-  - RGCategory (0.1.0)
+  - RGCategory (0.0.5):
+    - RGCategory/CALayer (= 0.0.5)
+    - RGCategory/NSArray (= 0.0.5)
+    - RGCategory/NSAttributedString (= 0.0.5)
+    - RGCategory/NSDate (= 0.0.5)
+    - RGCategory/NSObject (= 0.0.5)
+    - RGCategory/NSString (= 0.0.5)
+    - RGCategory/RGView (= 0.0.5)
+    - RGCategory/UIcolor (= 0.0.5)
+    - RGCategory/UIFont (= 0.0.5)
+    - RGCategory/UIImage (= 0.0.5)
+    - RGCategory/UIView (= 0.0.5)
+  - RGCategory/CALayer (0.0.5)
+  - RGCategory/NSArray (0.0.5)
+  - RGCategory/NSAttributedString (0.0.5)
+  - RGCategory/NSDate (0.0.5)
+  - RGCategory/NSObject (0.0.5)
+  - RGCategory/NSString (0.0.5)
+  - RGCategory/RGView (0.0.5)
+  - RGCategory/UIcolor (0.0.5)
+  - RGCategory/UIFont (0.0.5)
+  - RGCategory/UIImage (0.0.5)
+  - RGCategory/UIView (0.0.5)
 
 DEPENDENCIES:
   - RGCategory (from `../`)
@@ -9,7 +31,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  RGCategory: e492d18cd4902893b0174df936dbcda0b6f2cc45
+  RGCategory: bb8dc571f8c277ac8d0ca14d54929c26cdbc88ed
 
 PODFILE CHECKSUM: 5ed527cf8f968cd839951a3c7bce425626dcab82
 
