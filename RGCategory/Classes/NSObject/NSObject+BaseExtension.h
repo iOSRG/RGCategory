@@ -14,10 +14,24 @@
 
 -(NSString*)JSONString;
 
-/*倒计时*/
+///倒计时
 + (void)makeTimerWithTimeout:(NSInteger)time  eventBlock:(void (^)(id result))eventBlock  timeoutBlock:(void (^)(void))timeoutBlock;
 
 ///图片写入相册
 - (void)ImageWriteToSavedPhotosAlbum:(UIImage *)image result:(void(^)(NSError *error))result;
+
+
+/**计算缓存大小*/
+//+ (CGFloat)cachesSize;
+/**清除缓存*/
++ (void)clearCaches;
+
+/**沙盒路径*/
++ (NSString *)documentPath;
+/**缓存路径*/
++ (NSString *)cachesPath;
+
+
+
 
 @end

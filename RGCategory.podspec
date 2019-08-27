@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RGCategory'
-  s.version          = '0.0.6'
+  s.version          = '0.0.7'
   s.summary          = 'RGCategory'
 
 # This description is used to generate tags and improve search results.
@@ -48,6 +48,8 @@ Pod::Spec.new do |s|
   
   s.subspec 'NSObject' do |so|
       so.source_files = 'RGCategory/Classes/NSObject/**/*'
+      so.dependency 'SDWebImage', '~> 5.1.0'
+      
   end
   
   s.subspec 'NSString' do |sst|
@@ -78,6 +80,21 @@ Pod::Spec.new do |s|
       sex.source_files = 'RGCategory/Classes/Extension_MAS/**/*'
       sex.dependency 'Masonry', '~> 1.1.0'
   end
+  
+  s.subspec 'UIAlertView' do |sal|
+      sal.source_files = 'RGCategory/Classes/UIAlertView/**/*'
+  end
+  
+  s.subspec 'UIDevice' do |sud|
+      sud.source_files = 'RGCategory/Classes/UIDevice/**/*'
+      sud.dependency 'SSKeychain', '~> 1.2.3'
+  end
+  
+  #s.subspec 'AppDelegate' do |sad|
+  #sad.source_files = 'RGCategory/Classes/AppDelegate/**/*'
+  #sad.dependency 'JPush', '3.2.2-noidfa'
+  #end
+  
   
   
   

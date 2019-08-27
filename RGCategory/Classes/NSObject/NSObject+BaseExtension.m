@@ -8,6 +8,8 @@
 
 #import "NSObject+BaseExtension.h"
 #import <objc/runtime.h>
+#import <SDWebImage/SDWebImage.h>
+#import <SDWebImage/SDImageCache.h>
 
 static const void *Saveresult = &Saveresult;
 
@@ -84,6 +86,64 @@ static const void *Saveresult = &Saveresult;
     
     void (^saveResult)(NSError *error) = objc_getAssociatedObject(self, Saveresult);
     saveResult(error);
+    
+}
+
+//MARK: -  计算缓存大小   清除缓存
+
++ (CGFloat)cachesSize {
+    NSFileManager *manager = [NSFileManager defaultManager];
+    CGFloat size = 0;
+    if ([manager fileExistsAtPath:[self cachesPath]]) {
+        //目录下的文件大小计算
+        NSArray *subPathArr = [manager subpathsAtPath:[self cachesPath]];
+        for (NSInteger i = 0; i < subPathArr.count; i++) {
+            NSString *subPath = subPathArr[i];
+            NSString *absolutePath = [[self cachesPath] stringByAppendingPathComponent:subPath];
+            size += [manager attributesOfItemAtPath:absolutePath error:nil].fileSize;
+            
+        }
+        //SDWebImage的缓存计算
+        size += [[SDImageCache sharedImageCache] totalDiskSize];
+        return size / 1000.0 / 1000.0;
+    }
+    
+    return size;
+}
+
++ (void)clearCaches {
+    
+    NSFileManager *manager = [NSFileManager defaultManager];
+    if ([manager fileExistsAtPath:[self cachesPath]]) {
+        NSArray *subPathArr = [manager subpathsAtPath:[self cachesPath]];
+        for (NSInteger i = 0; i < subPathArr.count; i++) {
+            NSString *subPath = subPathArr[i];
+            NSString *absolutePath = [[self cachesPath] stringByAppendingPathComponent:subPath];
+            NSLog(@"absolutePath = %@",absolutePath);
+            [manager removeItemAtPath:absolutePath error:nil];
+        }
+    }
+    //SDWebImage的清除功能
+    [[SDImageCache sharedImageCache] clearDiskOnCompletion:nil];
+    [[SDImageCache sharedImageCache] clearMemory];
+    
+}
+
+
+
+//MARK: - Document Contents
++ (NSString *)documentPath {
+    
+    NSString *path = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES).lastObject;
+    return path;
+    
+}
+
+
++ (NSString *)cachesPath {
+    
+    NSString *path = NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES).lastObject;
+    return path;
     
 }
 

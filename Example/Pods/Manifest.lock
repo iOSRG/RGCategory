@@ -9,7 +9,9 @@ PODS:
     - RGCategory/NSObject (= 0.0.6)
     - RGCategory/NSString (= 0.0.6)
     - RGCategory/RGView (= 0.0.6)
+    - RGCategory/UIAlertView (= 0.0.6)
     - RGCategory/UIcolor (= 0.0.6)
+    - RGCategory/UIDevice (= 0.0.6)
     - RGCategory/UIFont (= 0.0.6)
     - RGCategory/UIImage (= 0.0.6)
     - RGCategory/UIView (= 0.0.6)
@@ -19,13 +21,21 @@ PODS:
   - RGCategory/NSArray (0.0.6)
   - RGCategory/NSAttributedString (0.0.6)
   - RGCategory/NSDate (0.0.6)
-  - RGCategory/NSObject (0.0.6)
+  - RGCategory/NSObject (0.0.6):
+    - SDWebImage (~> 5.1.0)
   - RGCategory/NSString (0.0.6)
   - RGCategory/RGView (0.0.6)
+  - RGCategory/UIAlertView (0.0.6)
   - RGCategory/UIcolor (0.0.6)
+  - RGCategory/UIDevice (0.0.6):
+    - SSKeychain (~> 1.2.3)
   - RGCategory/UIFont (0.0.6)
   - RGCategory/UIImage (0.0.6)
   - RGCategory/UIView (0.0.6)
+  - SDWebImage (5.1.0):
+    - SDWebImage/Core (= 5.1.0)
+  - SDWebImage/Core (5.1.0)
+  - SSKeychain (1.2.3)
 
 DEPENDENCIES:
   - RGCategory (from `../`)
@@ -33,6 +43,8 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - Masonry
+    - SDWebImage
+    - SSKeychain
 
 EXTERNAL SOURCES:
   RGCategory:
@@ -40,8 +52,10 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  RGCategory: 6d5376ec577f8b8404c7d195537327d87da5b280
+  RGCategory: 95cd20c292e464d0400c0a0ca1eea3ab9ac4d88e
+  SDWebImage: fb387001955223213dde14bc08c8b73f371f8d8f
+  SSKeychain: 3f42991739c6c60a9cf1bbd4dff6c0d3694bcf3d
 
-PODFILE CHECKSUM: 2d60445526d88ed35aa366d6b790114ea9d9ac73
+PODFILE CHECKSUM: ba6ef99eee622b7c9ff9bdc48ecf89421c4bb5b6
 
 COCOAPODS: 1.5.0

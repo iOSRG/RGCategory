@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D3A62521A26E64711B4C80D /* Pods_RGCategory_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34434F1E108728065D8C6D88 /* Pods_RGCategory_Tests.framework */; };
+		5563FC72BE3C782E7DA7DC26 /* Pods_RGCategory_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9A8031AB90DDDE117900913 /* Pods_RGCategory_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
-		6003F59E195388D20070C39A /* RGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* RGAppDelegate.m */; };
 		6003F5A7195388D20070C39A /* RGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* RGViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
@@ -22,8 +23,8 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		C171E66068FEC6A4D8B8FF71 /* Pods_RGCategory_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D47884AAB6D1B7E06F2FBC7E /* Pods_RGCategory_Tests.framework */; };
-		D5A3964D199266928A4261BA /* Pods_RGCategory_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B030F9EA993CAA48C3F58FE /* Pods_RGCategory_Example.framework */; };
+		F11EA69E230A765C00873BCA /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = F11EA69D230A765C00873BCA /* index.html */; };
+		F171DD3D230CF548007F75D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F171DD3C230CF548007F75D9 /* AppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B030F9EA993CAA48C3F58FE /* Pods_RGCategory_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RGCategory_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		102E5EFFDE24507BAD30F8AB /* Pods-RGCategory_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RGCategory_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RGCategory_Tests/Pods-RGCategory_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		34434F1E108728065D8C6D88 /* Pods_RGCategory_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RGCategory_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* RGCategory_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RGCategory_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -47,8 +48,6 @@
 		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6003F59B195388D20070C39A /* RGCategory-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RGCategory-Prefix.pch"; sourceTree = "<group>"; };
-		6003F59C195388D20070C39A /* RGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RGAppDelegate.h; sourceTree = "<group>"; };
-		6003F59D195388D20070C39A /* RGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RGAppDelegate.m; sourceTree = "<group>"; };
 		6003F5A5195388D20070C39A /* RGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RGViewController.h; sourceTree = "<group>"; };
 		6003F5A6195388D20070C39A /* RGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RGViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -63,10 +62,14 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		93FB1B6DC9486C6523DD6810 /* Pods-RGCategory_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RGCategory_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RGCategory_Example/Pods-RGCategory_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		99C8BFF3DBEC6DE9EB59B143 /* Pods-RGCategory_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RGCategory_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-RGCategory_Example/Pods-RGCategory_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B9A8031AB90DDDE117900913 /* Pods_RGCategory_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RGCategory_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1B663BE841E1836F095136D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D24A4D64834923F57A84502E /* Pods-RGCategory_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RGCategory_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RGCategory_Tests/Pods-RGCategory_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D47884AAB6D1B7E06F2FBC7E /* Pods_RGCategory_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RGCategory_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0C74163F263B7ECC35A85B8 /* RGCategory.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RGCategory.podspec; path = ../RGCategory.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F11EA69D230A765C00873BCA /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		F171DD3B230CF548007F75D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F171DD3C230CF548007F75D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F171DD41230D31EE007F75D9 /* RGCategory_Example.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RGCategory_Example.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +80,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				D5A3964D199266928A4261BA /* Pods_RGCategory_Example.framework in Frameworks */,
+				5563FC72BE3C782E7DA7DC26 /* Pods_RGCategory_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +91,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				C171E66068FEC6A4D8B8FF71 /* Pods_RGCategory_Tests.framework in Frameworks */,
+				2D3A62521A26E64711B4C80D /* Pods_RGCategory_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,6 +112,7 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				F171DD41230D31EE007F75D9 /* RGCategory_Example.entitlements */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for RGCategory */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -134,8 +138,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				0B030F9EA993CAA48C3F58FE /* Pods_RGCategory_Example.framework */,
-				D47884AAB6D1B7E06F2FBC7E /* Pods_RGCategory_Tests.framework */,
+				B9A8031AB90DDDE117900913 /* Pods_RGCategory_Example.framework */,
+				34434F1E108728065D8C6D88 /* Pods_RGCategory_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -143,8 +147,9 @@
 		6003F593195388D20070C39A /* Example for RGCategory */ = {
 			isa = PBXGroup;
 			children = (
-				6003F59C195388D20070C39A /* RGAppDelegate.h */,
-				6003F59D195388D20070C39A /* RGAppDelegate.m */,
+				F11EA69C230A765C00873BCA /* readme */,
+				F171DD3B230CF548007F75D9 /* AppDelegate.h */,
+				F171DD3C230CF548007F75D9 /* AppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* RGViewController.h */,
 				6003F5A6195388D20070C39A /* RGViewController.m */,
@@ -196,6 +201,14 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		F11EA69C230A765C00873BCA /* readme */ = {
+			isa = PBXGroup;
+			children = (
+				F11EA69D230A765C00873BCA /* index.html */,
+			);
+			path = readme;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -207,7 +220,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				29A558C99A115C73222D5E80 /* [CP] Embed Pods Frameworks */,
+				5C574F6D9F281D04D71D532F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -248,7 +261,16 @@
 				ORGANIZATIONNAME = "18607304107@163.com";
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
-						DevelopmentTeam = XYRZ44JPT2;
+						DevelopmentTeam = PWLA8WB96Z;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
@@ -279,6 +301,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F11EA69E230A765C00873BCA /* index.html in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
@@ -315,7 +338,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		29A558C99A115C73222D5E80 /* [CP] Embed Pods Frameworks */ = {
+		5C574F6D9F281D04D71D532F /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -324,11 +347,15 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-RGCategory_Example/Pods-RGCategory_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/RGCategory/RGCategory.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SSKeychain/SSKeychain.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RGCategory.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SSKeychain.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -360,7 +387,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F59E195388D20070C39A /* RGAppDelegate.m in Sources */,
+				F171DD3D230CF548007F75D9 /* AppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* RGViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
@@ -490,14 +517,17 @@
 			baseConfigurationReference = 93FB1B6DC9486C6523DD6810 /* Pods-RGCategory_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = XYRZ44JPT2;
+				CODE_SIGN_ENTITLEMENTS = RGCategory_Example.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = PWLA8WB96Z;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RGCategory/RGCategory-Prefix.pch";
 				INFOPLIST_FILE = "RGCategory/RGCategory-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.crland.crllraDEV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = crlandCrllraDEVProvioning;
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};
@@ -508,14 +538,18 @@
 			baseConfigurationReference = 99C8BFF3DBEC6DE9EB59B143 /* Pods-RGCategory_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = XYRZ44JPT2;
+				CODE_SIGN_ENTITLEMENTS = RGCategory_Example.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = PWLA8WB96Z;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RGCategory/RGCategory-Prefix.pch";
 				INFOPLIST_FILE = "RGCategory/RGCategory-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.crland.crllraDEV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = crllraDEV_Ad_Provisioning01;
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};

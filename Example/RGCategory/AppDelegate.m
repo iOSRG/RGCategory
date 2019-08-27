@@ -1,12 +1,12 @@
 //
-//  RGAppDelegate.m
-//  RGCategory
+//  AppDelegate.m
+//  RGCategory_Example
 //
-//  Created by 18607304107@163.com on 08/13/2019.
-//  Copyright (c) 2019 18607304107@163.com. All rights reserved.
+//  Created by 浮生似梦、Dream on 2019/8/21.
+//  Copyright © 2019年 18607304107@163.com. All rights reserved.
 //
 
-#import "RGAppDelegate.h"
+#import "AppDelegate.h"
 //#import "CALayer+BaseExtension.h"
 #import <RGCategory/CALayer+BaseExtension.h>
 #import <RGCategory/NSArray+Log.h>
@@ -21,13 +21,17 @@
 #import <RGCategory/UIImage+BaseExtension.h>
 #import <RGCategory/UIView+Frame.h>
 #import <RGCategory/UIView+Borders.h>
+#import <RGCategory/NSObject+MethodObserver.h>
+//#import "AppDelegate+JPUSH.h"
+
+@implementation AppDelegate
 
 
-@implementation RGAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    
+    [self testJpushWithOptions:launchOptions];
     return YES;
 }
 
@@ -56,6 +60,39 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+//MARK: - TEST
+- (void)testJpushWithOptions:(NSDictionary *)launchOptions {
+    
+//    NSDictionary *jpushInfo = @{@"JPushAppkey" : @"4884736001375d686fc39a3b",@"JPushChannel" : @"1", @"isProduction" : @(YES)};
+//    [self configureJPUSHSDKWithOptions:launchOptions jpushInfo:jpushInfo];
+//    
+//    __weak typeof(self) weakSelf = self;
+//    [self receiveNotificationSucessIOS12Foreground:^(NSDictionary * _Nonnull userInfo) {
+//        
+//        NSLog(@"iOS12前台 userInfo = %@",userInfo);
+//        
+//    } IOS12Background:^(NSDictionary * _Nonnull userInfo) {
+//        
+//        NSLog(@"iOS12后台 userInfo = %@",userInfo);
+//        
+//    } IOS10Foreground:^(NSDictionary * _Nonnull userInfo) {
+//        
+//        NSLog(@"iOS10前台 userInfo = %@",userInfo);
+//        
+//    } IOS10Background:^(NSDictionary * _Nonnull userInfo) {
+//        
+//        NSLog(@"iOS10j后台 userInfo  =%@",userInfo);
+//    } IOS7Foreground:^(NSDictionary * _Nonnull userInfo) {
+//        
+//        NSLog(@"iOS7前台 userInfo = %@",userInfo);
+//    } IOS7Background:^(NSDictionary * _Nonnull userInfo) {
+//        
+//        NSLog(@"iOS7后台 userInfo = %@",userInfo);
+//        
+//    }];
+    
 }
 
 @end

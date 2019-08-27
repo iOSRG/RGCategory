@@ -13,4 +13,6 @@
 /**视图截取成为图片*/
 - (UIImage *)getImageWithContextSize:(CGSize)size;
 
+- (void)whenTapped:(void (^)(void))block;
+
 @end

@@ -34,7 +34,12 @@
     },
     {
       "name": "NSObject",
-      "source_files": "RGCategory/Classes/NSObject/**/*"
+      "source_files": "RGCategory/Classes/NSObject/**/*",
+      "dependencies": {
+        "SDWebImage": [
+          "~> 5.1.0"
+        ]
+      }
     },
     {
       "name": "NSString",
@@ -66,6 +71,19 @@
       "dependencies": {
         "Masonry": [
           "~> 1.1.0"
+        ]
+      }
+    },
+    {
+      "name": "UIAlertView",
+      "source_files": "RGCategory/Classes/UIAlertView/**/*"
+    },
+    {
+      "name": "UIDevice",
+      "source_files": "RGCategory/Classes/UIDevice/**/*",
+      "dependencies": {
+        "SSKeychain": [
+          "~> 1.2.3"
         ]
       }
     }
