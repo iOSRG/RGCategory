@@ -22,6 +22,7 @@
 #import <RGCategory/UIView+Frame.h>
 #import <RGCategory/UIView+Borders.h>
 #import <RGCategory/NSObject+MethodObserver.h>
+
 //#import "AppDelegate+JPUSH.h"
 
 @implementation AppDelegate

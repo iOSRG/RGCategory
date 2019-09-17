@@ -1,6 +1,6 @@
 {
   "name": "RGCategory",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "summary": "RGCategory",
   "description": "常用分类",
   "homepage": "https://github.com/iOSRG/RGCategory",
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/iOSRG/RGCategory.git",
-    "tag": "0.0.6"
+    "tag": "0.0.7"
   },
   "platforms": {
     "ios": "8.0"
