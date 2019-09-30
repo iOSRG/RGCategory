@@ -63,27 +63,19 @@
     };
 }
 
-//占位文字颜色
--(UITextField* (^)(UIColor *PlaceholderColor))rg_PlaceholderColor
-{
-    
-    return ^UITextField *(UIColor *PlaceholderColor){
-        
-        [self setValue:PlaceholderColor forKeyPath:@"_placeholderLabel.textColor"];
-        
-        return self;
-        
-    };
-}
+
+//}
 
 //占位文字和颜色
 -(UITextField* (^)(NSString *placeholder, UIColor *PlaceholderColor))rg_PlaceholderAndPlaceholderColor
 {
     
     return ^UITextField *(NSString *placeholder, UIColor *PlaceholderColor){
-        
-        self.placeholder = placeholder;
-        [self setValue:PlaceholderColor forKeyPath:@"_placeholderLabel.textColor"];
+        if ([placeholder isKindOfClass:[NSString class]] && [PlaceholderColor isKindOfClass:[UIColor class]]) {
+                   self.attributedPlaceholder = [[NSAttributedString alloc] initWithString:placeholder attributes:@{NSForegroundColorAttributeName:PlaceholderColor}];
+        }
+//        self.placeholder = placeholder;
+//        [self setValue:PlaceholderColor forKeyPath:@"_placeholderLabel.textColor"];
         return self;
         
     };

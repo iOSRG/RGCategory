@@ -20,8 +20,6 @@
 //左视图和Frame
 -(UITextField* (^)(UIView *leftView ,CGRect frame))rg_LeftViewAndLeftViewFrame;
 
-//占位文字颜色
--(UITextField* (^)(UIColor *PlaceholderColor))rg_PlaceholderColor;
 
 //占位文字
 -(UITextField* (^)(NSString *placeholder))rg_Placeholder;

@@ -24,6 +24,8 @@
 {
     [super viewDidLoad];
 	
+    
+    
     [self.btn addEventHandler:^(id sender) {
         NSLog(@"-----");
     } forControlEvents:UIControlEventTouchUpInside];
