@@ -23,6 +23,11 @@ static const NSString *AttributedDic = @"AttributedDic";
 ///设置中划线
 - (NSMutableAttributedString *)deleteAttributedString;
 - (NSMutableAttributedString *)deleteAttributedStringWithattributed:(NSDictionary *)attDic;
+
+///设置下划线
+- (NSMutableAttributedString *)underlineString;
+- (NSMutableAttributedString *)underlineStringWithattributed:(NSDictionary *)attDic;
+
 /*
  *  首行缩进几个字符
  *  pointSize : 字体大小

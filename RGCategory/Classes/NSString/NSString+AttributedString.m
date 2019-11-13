@@ -67,6 +67,17 @@
     
 }
 
+- (NSMutableAttributedString *)underlineString {
+    
+    return [self underlineStringWithattributed:nil];
+}
+- (NSMutableAttributedString *)underlineStringWithattributed:(NSDictionary *)attDic {
+    if (!self.length) return [[NSMutableAttributedString alloc] init];
+    NSMutableAttributedString *attributedString = [self attributedStringWtihAttributed:attDic];
+    [attributedString addAttributes:@{NSUnderlineStyleAttributeName : [NSNumber numberWithInteger:NSUnderlineStyleSingle]} range:NSMakeRange(0, self.length)];
+    return  attributedString;
+}
+
 
 - (NSMutableAttributedString *)paragraphStyleWithFont:(CGFloat)pointSize  len:(NSInteger)len lineSpacing:(CGFloat)lineSpacing{
     NSMutableParagraphStyle *paraStyle01 = [[NSMutableParagraphStyle alloc] init];

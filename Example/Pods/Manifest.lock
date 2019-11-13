@@ -1,37 +1,37 @@
 PODS:
   - Masonry (1.1.0)
-  - RGCategory (0.0.8):
-    - RGCategory/CALayer (= 0.0.8)
-    - RGCategory/Extension_MAS (= 0.0.8)
-    - RGCategory/NSArray (= 0.0.8)
-    - RGCategory/NSAttributedString (= 0.0.8)
-    - RGCategory/NSDate (= 0.0.8)
-    - RGCategory/NSObject (= 0.0.8)
-    - RGCategory/NSString (= 0.0.8)
-    - RGCategory/RGView (= 0.0.8)
-    - RGCategory/UIAlertView (= 0.0.8)
-    - RGCategory/UIcolor (= 0.0.8)
-    - RGCategory/UIDevice (= 0.0.8)
-    - RGCategory/UIFont (= 0.0.8)
-    - RGCategory/UIImage (= 0.0.8)
-    - RGCategory/UIView (= 0.0.8)
-  - RGCategory/CALayer (0.0.8)
-  - RGCategory/Extension_MAS (0.0.8):
+  - RGCategory (0.0.9):
+    - RGCategory/CALayer (= 0.0.9)
+    - RGCategory/Extension_MAS (= 0.0.9)
+    - RGCategory/NSArray (= 0.0.9)
+    - RGCategory/NSAttributedString (= 0.0.9)
+    - RGCategory/NSDate (= 0.0.9)
+    - RGCategory/NSObject (= 0.0.9)
+    - RGCategory/NSString (= 0.0.9)
+    - RGCategory/RGView (= 0.0.9)
+    - RGCategory/UIAlertView (= 0.0.9)
+    - RGCategory/UIcolor (= 0.0.9)
+    - RGCategory/UIDevice (= 0.0.9)
+    - RGCategory/UIFont (= 0.0.9)
+    - RGCategory/UIImage (= 0.0.9)
+    - RGCategory/UIView (= 0.0.9)
+  - RGCategory/CALayer (0.0.9)
+  - RGCategory/Extension_MAS (0.0.9):
     - Masonry (~> 1.1.0)
-  - RGCategory/NSArray (0.0.8)
-  - RGCategory/NSAttributedString (0.0.8)
-  - RGCategory/NSDate (0.0.8)
-  - RGCategory/NSObject (0.0.8):
+  - RGCategory/NSArray (0.0.9)
+  - RGCategory/NSAttributedString (0.0.9)
+  - RGCategory/NSDate (0.0.9)
+  - RGCategory/NSObject (0.0.9):
     - SDWebImage (~> 5.1.0)
-  - RGCategory/NSString (0.0.8)
-  - RGCategory/RGView (0.0.8)
-  - RGCategory/UIAlertView (0.0.8)
-  - RGCategory/UIcolor (0.0.8)
-  - RGCategory/UIDevice (0.0.8):
+  - RGCategory/NSString (0.0.9)
+  - RGCategory/RGView (0.0.9)
+  - RGCategory/UIAlertView (0.0.9)
+  - RGCategory/UIcolor (0.0.9)
+  - RGCategory/UIDevice (0.0.9):
     - SSKeychain (~> 1.2.3)
-  - RGCategory/UIFont (0.0.8)
-  - RGCategory/UIImage (0.0.8)
-  - RGCategory/UIView (0.0.8)
+  - RGCategory/UIFont (0.0.9)
+  - RGCategory/UIImage (0.0.9)
+  - RGCategory/UIView (0.0.9)
   - SDWebImage (5.1.1):
     - SDWebImage/Core (= 5.1.1)
   - SDWebImage/Core (5.1.1)
@@ -41,7 +41,7 @@ DEPENDENCIES:
   - RGCategory (from `../`)
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  trunk:
     - Masonry
     - SDWebImage
     - SSKeychain
@@ -52,10 +52,10 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  RGCategory: ee63a09f5f0a9faeb6563fc75ca71cc7dc255016
+  RGCategory: d2a578cd9817e411e7c0d557e59e521b8b4c3a90
   SDWebImage: 96d7f03415ccb28d299d765f93557ff8a617abd8
   SSKeychain: 3f42991739c6c60a9cf1bbd4dff6c0d3694bcf3d
 
 PODFILE CHECKSUM: ba6ef99eee622b7c9ff9bdc48ecf89421c4bb5b6
 
-COCOAPODS: 1.5.0
+COCOAPODS: 1.8.1
