@@ -5,6 +5,7 @@ platform :ios, '8.0'
 target 'RGCategory_Example' do
     pod 'RGCategory', :path => '../'
 #    pod 'JPush', '3.2.2-noidfa'
+#     pod 'RGCategory'
   target 'RGCategory_Tests' do
     inherit! :search_paths
 
