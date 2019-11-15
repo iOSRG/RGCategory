@@ -1,41 +1,41 @@
 PODS:
   - Masonry (1.1.0)
-  - RGCategory (0.1.0):
-    - RGCategory/CALayer (= 0.1.0)
-    - RGCategory/Extension_MAS (= 0.1.0)
-    - RGCategory/NSArray (= 0.1.0)
-    - RGCategory/NSAttributedString (= 0.1.0)
-    - RGCategory/NSDate (= 0.1.0)
-    - RGCategory/NSObject (= 0.1.0)
-    - RGCategory/NSString (= 0.1.0)
-    - RGCategory/RGView (= 0.1.0)
-    - RGCategory/UIAlertView (= 0.1.0)
-    - RGCategory/UIcolor (= 0.1.0)
-    - RGCategory/UIDevice (= 0.1.0)
-    - RGCategory/UIFont (= 0.1.0)
-    - RGCategory/UIImage (= 0.1.0)
-    - RGCategory/UIView (= 0.1.0)
-  - RGCategory/CALayer (0.1.0)
-  - RGCategory/Extension_MAS (0.1.0):
-    - Masonry (~> 1.1.0)
-  - RGCategory/NSArray (0.1.0)
-  - RGCategory/NSAttributedString (0.1.0)
-  - RGCategory/NSDate (0.1.0)
-  - RGCategory/NSObject (0.1.0):
-    - SDWebImage (~> 5.1.0)
-  - RGCategory/NSString (0.1.0)
-  - RGCategory/RGView (0.1.0)
-  - RGCategory/UIAlertView (0.1.0)
-  - RGCategory/UIcolor (0.1.0)
-  - RGCategory/UIDevice (0.1.0):
-    - SSKeychain (~> 1.2.3)
-  - RGCategory/UIFont (0.1.0)
-  - RGCategory/UIImage (0.1.0)
-  - RGCategory/UIView (0.1.0)
-  - SDWebImage (5.1.1):
-    - SDWebImage/Core (= 5.1.1)
-  - SDWebImage/Core (5.1.1)
-  - SSKeychain (1.2.3)
+  - RGCategory (0.1.1):
+    - RGCategory/CALayer (= 0.1.1)
+    - RGCategory/Extension_MAS (= 0.1.1)
+    - RGCategory/NSArray (= 0.1.1)
+    - RGCategory/NSAttributedString (= 0.1.1)
+    - RGCategory/NSDate (= 0.1.1)
+    - RGCategory/NSObject (= 0.1.1)
+    - RGCategory/NSString (= 0.1.1)
+    - RGCategory/RGView (= 0.1.1)
+    - RGCategory/UIAlertView (= 0.1.1)
+    - RGCategory/UIcolor (= 0.1.1)
+    - RGCategory/UIDevice (= 0.1.1)
+    - RGCategory/UIFont (= 0.1.1)
+    - RGCategory/UIImage (= 0.1.1)
+    - RGCategory/UIView (= 0.1.1)
+  - RGCategory/CALayer (0.1.1)
+  - RGCategory/Extension_MAS (0.1.1):
+    - Masonry (>= 1.1.0)
+  - RGCategory/NSArray (0.1.1)
+  - RGCategory/NSAttributedString (0.1.1)
+  - RGCategory/NSDate (0.1.1)
+  - RGCategory/NSObject (0.1.1):
+    - SDWebImage (>= 5.1.0)
+  - RGCategory/NSString (0.1.1)
+  - RGCategory/RGView (0.1.1)
+  - RGCategory/UIAlertView (0.1.1)
+  - RGCategory/UIcolor (0.1.1)
+  - RGCategory/UIDevice (0.1.1):
+    - SSKeychain (>= 1.2.3)
+  - RGCategory/UIFont (0.1.1)
+  - RGCategory/UIImage (0.1.1)
+  - RGCategory/UIView (0.1.1)
+  - SDWebImage (5.3.1):
+    - SDWebImage/Core (= 5.3.1)
+  - SDWebImage/Core (5.3.1)
+  - SSKeychain (1.4.1)
 
 DEPENDENCIES:
   - RGCategory (from `../`)
@@ -52,9 +52,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  RGCategory: 10d32bdbdf47d3b8fc8092f48c00a8a4627061db
-  SDWebImage: 96d7f03415ccb28d299d765f93557ff8a617abd8
-  SSKeychain: 3f42991739c6c60a9cf1bbd4dff6c0d3694bcf3d
+  RGCategory: f99d0d7b142b81878ee6964c0804fe9a904883c0
+  SDWebImage: 7137d57385fb632129838c1e6ab9528a22c666cc
+  SSKeychain: 55cc80f66f5c73da827e3077f02e43528897db41
 
 PODFILE CHECKSUM: edda335cba9c41efc1db9789c449cd1d04c813e1
 

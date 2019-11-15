@@ -1,6 +1,6 @@
 {
   "name": "RGCategory",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "RGCategory",
   "description": "常用分类",
   "homepage": "https://github.com/iOSRG/RGCategory",
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/iOSRG/RGCategory.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
@@ -37,7 +37,7 @@
       "source_files": "RGCategory/Classes/NSObject/**/*",
       "dependencies": {
         "SDWebImage": [
-          "~> 5.1.0"
+          ">= 5.1.0"
         ]
       }
     },
@@ -70,7 +70,7 @@
       "source_files": "RGCategory/Classes/Extension_MAS/**/*",
       "dependencies": {
         "Masonry": [
-          "~> 1.1.0"
+          ">= 1.1.0"
         ]
       }
     },
@@ -83,7 +83,7 @@
       "source_files": "RGCategory/Classes/UIDevice/**/*",
       "dependencies": {
         "SSKeychain": [
-          "~> 1.2.3"
+          ">= 1.2.3"
         ]
       }
     }

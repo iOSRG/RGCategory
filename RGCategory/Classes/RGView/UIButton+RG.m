@@ -118,6 +118,8 @@
     };
 }
 
+
+
 #pragma mark - 选中状态下的文字颜色
 -(UIButton* (^)(UIColor *color))rg_SelectedTitleColor
 {
@@ -125,6 +127,26 @@
     return ^(UIColor *color){
         
         [self setTitleColor:color forState:UIControlStateSelected];
+        return self;
+        
+    };
+}
+
+-(UIButton* (^)(NSAttributedString *attributedTitle))rg_NormalAttributedTitle {
+    
+    return ^(NSAttributedString *attributedTitle){
+        
+        [self setAttributedTitle:attributedTitle forState:UIControlStateNormal];
+        return self;
+        
+    };
+}
+
+-(UIButton* (^)(NSAttributedString *attributedTitle))rg_SelectedAttributedTitle {
+    
+    return ^(NSAttributedString *attributedTitle){
+        
+        [self setAttributedTitle:attributedTitle forState:UIControlStateSelected];
         return self;
         
     };

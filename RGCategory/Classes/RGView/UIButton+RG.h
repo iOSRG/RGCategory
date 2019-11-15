@@ -53,6 +53,10 @@
  */
 -(UIButton* (^)(NSString *title))rg_NormalTitle;
 
+-(UIButton* (^)(NSAttributedString *attributedTitle))rg_NormalAttributedTitle;
+
+-(UIButton* (^)(NSAttributedString *attributedTitle))rg_SelectedAttributedTitle;
+
 /**
  * 自定义标题,颜色和状态
  *
@@ -93,5 +97,7 @@
 -(UIButton* (^)(NSString *title))rg_DisabledTitle;
 /**不可选状态下的文字颜色*/
 -(UIButton* (^)(UIColor *color))rg_DisabledTitleColor;
+
+
 
 @end
