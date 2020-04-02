@@ -29,4 +29,6 @@
                              viewMas:(void(^)(MASConstraintMaker *make))viewMas;
 
 
+- (void)addsubview:(UIView *)subView viewMas:(void(^)(MASConstraintMaker *make))viewMas;
+
 @end

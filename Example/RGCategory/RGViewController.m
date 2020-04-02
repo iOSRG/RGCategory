@@ -24,8 +24,6 @@
 
 - (void)viewDidLoad
 {
-    
-
     [super viewDidLoad];
 	
     self.testLbl.textColor = [UIColor blackColor];
@@ -53,5 +51,6 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 
 @end

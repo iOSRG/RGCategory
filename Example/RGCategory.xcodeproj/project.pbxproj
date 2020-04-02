@@ -24,6 +24,8 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		F11EA69E230A765C00873BCA /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = F11EA69D230A765C00873BCA /* index.html */; };
+		F1652C9723FD329D00AA59E5 /* me-BG0@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1652C9623FD329D00AA59E5 /* me-BG0@3x.jpg */; };
+		F1652C9923FD32B900AA59E5 /* loading_00002.png in Resources */ = {isa = PBXBuildFile; fileRef = F1652C9823FD32B900AA59E5 /* loading_00002.png */; };
 		F171DD3D230CF548007F75D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F171DD3C230CF548007F75D9 /* AppDelegate.m */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +69,8 @@
 		D24A4D64834923F57A84502E /* Pods-RGCategory_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RGCategory_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RGCategory_Tests/Pods-RGCategory_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F0C74163F263B7ECC35A85B8 /* RGCategory.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RGCategory.podspec; path = ../RGCategory.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F11EA69D230A765C00873BCA /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		F1652C9623FD329D00AA59E5 /* me-BG0@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "me-BG0@3x.jpg"; sourceTree = "<group>"; };
+		F1652C9823FD32B900AA59E5 /* loading_00002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading_00002.png; sourceTree = "<group>"; };
 		F171DD3B230CF548007F75D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F171DD3C230CF548007F75D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F171DD41230D31EE007F75D9 /* RGCategory_Example.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RGCategory_Example.entitlements; sourceTree = "<group>"; };
@@ -147,6 +151,7 @@
 		6003F593195388D20070C39A /* Example for RGCategory */ = {
 			isa = PBXGroup;
 			children = (
+				F1652C9523FD328800AA59E5 /* TestSource */,
 				F11EA69C230A765C00873BCA /* readme */,
 				F171DD3B230CF548007F75D9 /* AppDelegate.h */,
 				F171DD3C230CF548007F75D9 /* AppDelegate.m */,
@@ -207,6 +212,15 @@
 				F11EA69D230A765C00873BCA /* index.html */,
 			);
 			path = readme;
+			sourceTree = "<group>";
+		};
+		F1652C9523FD328800AA59E5 /* TestSource */ = {
+			isa = PBXGroup;
+			children = (
+				F1652C9823FD32B900AA59E5 /* loading_00002.png */,
+				F1652C9623FD329D00AA59E5 /* me-BG0@3x.jpg */,
+			);
+			path = TestSource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,6 +296,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -304,6 +319,8 @@
 				F11EA69E230A765C00873BCA /* index.html in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				F1652C9923FD32B900AA59E5 /* loading_00002.png in Resources */,
+				F1652C9723FD329D00AA59E5 /* me-BG0@3x.jpg in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
