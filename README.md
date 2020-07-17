@@ -8,6 +8,9 @@
 # 框架主要封装了iOS中常用控件的快捷创建方法以及常用功能的快捷实现方法
 
 ## UI举例
+
+UI快捷创建布局代码在“Extension_MAS”文件目录下，包含“UIButton”、“UILabel”、“UICollectionView”、“UIImageView”、“UITableView”、“UIView”等常用控件布局
+
 一行代码创建button
 
 ```
