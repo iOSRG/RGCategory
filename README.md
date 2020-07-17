@@ -49,6 +49,9 @@ it, simply add the following line to your Podfile:
 pod 'RGCategory'
 ```
 
+## 期待
+如果在使用过程中遇到BUG，希望你能Issues我，谢谢
+
 ## 作者
 
 18607304107@163.com, gui.ren@hand-china.com
