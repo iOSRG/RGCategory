@@ -5,9 +5,9 @@
 [![License](https://img.shields.io/cocoapods/l/RGCategory.svg?style=flat)](https://cocoapods.org/pods/RGCategory)
 [![Platform](https://img.shields.io/cocoapods/p/RGCategory.svg?style=flat)](https://cocoapods.org/pods/RGCategory)
 
-##框架主要封装了iOS中常用控件的快捷创建方法以及常用功能的快捷实现方法
+# 框架主要封装了iOS中常用控件的快捷创建方法以及常用功能的快捷实现方法
 
-## 例如
+## UI举例
 一行代码创建button
 
 ```
@@ -18,11 +18,29 @@ UIButton *testBtn = [UIButton ButtonWithNormalTitle:@"测试" NormalTitleColor:[
     }];
 ```
 
+一行代码创建label
+
+```
+UILabel *testLbl = [UILabel LableWithText:@"测试" textColor:[UIColor blueColor] FontSize:15 supView:self.view lableMas:^(MASConstraintMaker *make) {
+        make.leading.mas_equalTo(200);
+        make.top.mas_equalTo(100);
+    }];
+```
+
+## 常用功能举例
+
+一行代码字符串转日期
+```
+NSDate *date = [NSDate dateWithString:@"2019-01-19" dateFormat:@"yyyy-MM-dd"];
+```
+
+设置中划线
+```
+testLbl.attributedText = [@"测试" deleteAttributedString];
+```
 
 
-## Requirements
-
-## Installation
+## 安装方法
 
 RGCategory is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
@@ -31,7 +49,7 @@ it, simply add the following line to your Podfile:
 pod 'RGCategory'
 ```
 
-## Author
+## 作者
 
 18607304107@163.com, gui.ren@hand-china.com
 
