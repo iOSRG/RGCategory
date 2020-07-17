@@ -9,7 +9,7 @@
 
 ## UI举例
 
-UI快捷创建布局代码在“Extension_MAS”文件目录下，包含“UIButton”、“UILabel”、“UICollectionView”、“UIImageView”、“UITableView”、“UIView”等常用控件布局
+UI布局创建的代码在“Extension_MAS”文件目录下，包含“UIButton”、“UILabel”、“UICollectionView”、“UIImageView”、“UITableView”、“UIView”等常用控件布局
 
 一行代码创建button
 
