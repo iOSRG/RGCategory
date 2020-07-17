@@ -5,9 +5,20 @@
 [![License](https://img.shields.io/cocoapods/l/RGCategory.svg?style=flat)](https://cocoapods.org/pods/RGCategory)
 [![Platform](https://img.shields.io/cocoapods/p/RGCategory.svg?style=flat)](https://cocoapods.org/pods/RGCategory)
 
-## Example
+##框架主要封装了iOS中常用控件的快捷创建方法以及常用功能的快捷实现方法
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+## 例如
+一行代码创建button
+
+```
+UIButton *testBtn = [UIButton ButtonWithNormalTitle:@"测试" NormalTitleColor:[UIColor redColor] FontSize:14 backgroundColor:[UIColor grayColor] supView:self.view buttonMas:^(MASConstraintMaker *make) {
+        make.leading.mas_equalTo(100);
+        make.top.mas_equalTo(100);
+        make.width.height.mas_equalTo(50);
+    }];
+```
+
+
 
 ## Requirements
 
