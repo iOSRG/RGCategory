@@ -52,7 +52,39 @@
     
 }
 
++(instancetype)LableWithText:(NSString *)text
+                   textColor:(UIColor *)textColor
+             regularFontSize:(CGFloat)fontSzie
+                     supView:(UIView *)supView
+                    lableMas:(void(^)(MASConstraintMaker *make))labMas {
+    
+    UILabel *lable = [[self alloc] init];
+    lable.text = text;
+    lable.textColor = textColor;
+    lable.font = [UIFont fontWithName:@"PingFangSC-Regular" size:fontSzie];
+    lable.backgroundColor = [UIColor clearColor];
+    [supView addSubview:lable];
+    [lable mas_makeConstraints:labMas];
+    
+    return lable;
+}
 
++(instancetype)LableWithText:(NSString *)text
+                   textColor:(UIColor *)textColor
+              mediumFontSize:(CGFloat)fontSzie
+                     supView:(UIView *)supView
+                    lableMas:(void(^)(MASConstraintMaker *make))labMas {
+    
+    UILabel *lable = [[self alloc] init];
+    lable.text = text;
+    lable.textColor = textColor;
+    lable.font = [UIFont fontWithName:@"PingFangSC-Medium" size:fontSzie];
+    lable.backgroundColor = [UIColor clearColor];
+    [supView addSubview:lable];
+    [lable mas_makeConstraints:labMas];
+    return lable;
+    
+}
 
 
 @end

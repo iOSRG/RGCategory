@@ -17,6 +17,20 @@
                      supView:(UIView *)supView
                     lableMas:(void(^)(MASConstraintMaker *make))labMas;
 
++(instancetype)LableWithText:(NSString *)text
+                   textColor:(UIColor *)textColor
+             regularFontSize:(CGFloat)fontSzie
+                     supView:(UIView *)supView
+                    lableMas:(void(^)(MASConstraintMaker *make))labMas;
+
++(instancetype)LableWithText:(NSString *)text
+                   textColor:(UIColor *)textColor
+              mediumFontSize:(CGFloat)fontSzie
+                     supView:(UIView *)supView
+                    lableMas:(void(^)(MASConstraintMaker *make))labMas;
+
+
+
 /**带圆角和背景颜色的lable*/
 +(instancetype)LableWithCornerRadius:(CGFloat)cornerRadius
                        textAlignment:(NSTextAlignment)textAlignment
