@@ -57,7 +57,7 @@ pod 'RGCategory'
 
 ## 作者
 
-18607304107@163.com, gui.ren@hand-china.com
+18607304107@163.com
 
 ## License
 
