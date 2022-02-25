@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RGCategory'
-  s.version          = '0.1.5'
+  s.version          = '0.1.6'
   s.summary          = 'RGCategory'
 
 # This description is used to generate tags and improve search results.
@@ -87,7 +87,7 @@ Pod::Spec.new do |s|
   
   s.subspec 'UIDevice' do |sud|
       sud.source_files = 'RGCategory/Classes/UIDevice/**/*'
-      sud.dependency 'SSKeychain', '>= 1.2.3'
+      sud.dependency 'SAMKeychain', '~>1.5.3'
   end
   
   #s.subspec 'AppDelegate' do |sad|
