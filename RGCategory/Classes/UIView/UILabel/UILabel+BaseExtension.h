@@ -14,4 +14,42 @@
 
 +(instancetype)LableWithText:(NSString *)text  textColor:(UIColor *)textColor  FontSize:(NSInteger)fontSzie;
 
+
++(instancetype)lableWithText:(NSString *)text
+                   textColor:(UIColor *)textColor
+                    fontSize:(CGFloat)fontSzie
+                    fontName:(NSString *)fontName
+                    textAlignment:(NSTextAlignment)textAlignment
+                CornerRadius:(CGFloat)cornerRadius
+             backgroundColor:(UIColor *)backgroundColor;
+
+
++(instancetype)lableWithTextColor:(UIColor *)textColor
+                    fontSize:(CGFloat)fontSzie
+                    fontName:(NSString *)fontName
+                    textAlignment:(NSTextAlignment)textAlignment;
+
+
++(instancetype)lableWithtextColor:(UIColor *)textColor
+                    fontSize:(CGFloat)fontSzie
+                         fontName:(NSString *)fontName;
+
+
++(instancetype)lableWithText:(NSString *)text
+                   textColor:(UIColor *)textColor
+                    fontSize:(CGFloat)fontSzie
+                    fontName:(NSString *)fontName;
+
+
+
++(instancetype)lableWithText:(NSString *)text
+                   textColor:(UIColor *)textColor
+             regularFontSize:(CGFloat)fontSzie;
+                     
+
++(instancetype)lableWithText:(NSString *)text
+                   textColor:(UIColor *)textColor
+              mediumFontSize:(CGFloat)fontSzie;
+
+
 @end

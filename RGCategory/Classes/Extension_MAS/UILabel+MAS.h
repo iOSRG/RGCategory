@@ -11,6 +11,15 @@
 
 @interface UILabel (MAS)
 
+
++(instancetype)LableWithText:(NSString *)text
+                   textColor:(UIColor *)textColor
+                    fontSize:(CGFloat)fontSzie
+                    fontName:(NSString *)fontName
+                     supView:(UIView *)supView
+                    lableMas:(void(^)(MASConstraintMaker *make))labMas;
+
+
 +(instancetype)LableWithText:(NSString *)text
                    textColor:(UIColor *)textColor
                     FontSize:(CGFloat)fontSzie
@@ -28,6 +37,18 @@
               mediumFontSize:(CGFloat)fontSzie
                      supView:(UIView *)supView
                     lableMas:(void(^)(MASConstraintMaker *make))labMas;
+
+
+
++(instancetype)lableWithCornerRadius:(CGFloat)cornerRadius
+                       textAlignment:(NSTextAlignment)textAlignment
+                     backgroundColor:(UIColor *)backgroundColor
+                                text:(NSString *)text
+                           textColor:(UIColor *)textColor
+                            fontSize:(CGFloat)fontSzie
+                            fontName:(NSString *)fontName
+                             supView:(UIView *)supView
+                            lableMas:(void(^)(MASConstraintMaker *make))labMas;
 
 
 

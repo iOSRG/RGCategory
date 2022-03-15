@@ -163,6 +163,15 @@
     };
 }
 
+-(UITextField* (^)(NSTextAlignment textAlignment))rg_textAlignment {
+    
+    return ^UITextField *(NSTextAlignment textAlignment){
+        self.textAlignment = textAlignment;
+        return self;
+        
+    };
+}
+
 #pragma mark - 字体颜色
 -(UITextField* (^)(UIColor *textColor))rg_textColor{
     

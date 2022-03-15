@@ -58,4 +58,6 @@
 /**done按钮的样式*/
 - (UITextField* (^)(UIReturnKeyType returnKeyType))rg_returnKeyType;
 
+-(UITextField* (^)(NSTextAlignment textAlignment))rg_textAlignment;
+
 @end
