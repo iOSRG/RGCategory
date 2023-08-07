@@ -7,7 +7,8 @@
 //
 
 #import "UIDevice+BaseExtension.h"
-#import <SSKeychain/SSKeychain.h>
+#import <SAMKeychain/SAMKeychain.h>
+
 
 static NSString *memoryUUID = nil;
 
@@ -40,13 +41,14 @@ static NSString *memoryUUID = nil;
 -(NSString *)readOfKeychain
 {
     
+        
+    NSString *keyChainUUID = [SAMKeychain passwordForService:SERVER_NAME account:UUID_KEY error:nil];
     
-    NSString *keyChainUUID = [SSKeychain passwordForService:SERVER_NAME account:UUID_KEY error:nil];
     NSLog(@"+++++++++++++++++++++deviceid:%@",keyChainUUID);
     if (keyChainUUID == nil || [keyChainUUID isEqualToString:@""]){
         CFUUIDRef uuidRef = CFUUIDCreate(kCFAllocatorDefault);
         keyChainUUID = [NSString stringWithFormat:@"IOS-B2C-%@",(NSString *)CFBridgingRelease(CFUUIDCreateString (kCFAllocatorDefault,uuidRef))];
-        [SSKeychain setPassword:keyChainUUID forService:SERVER_NAME account:UUID_KEY error:nil];
+        [SAMKeychain setPassword:keyChainUUID forService:SERVER_NAME account:UUID_KEY error:nil];
     }
     
     [[NSUserDefaults standardUserDefaults] setObject:keyChainUUID forKey:UUID_KEY];
